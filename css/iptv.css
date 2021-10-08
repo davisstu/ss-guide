@@ -1,0 +1,68 @@
+body { font-family: Tahoma; background: hsla(0, 0%, 0%, 1); color: white; }
+a { color: white; }
+a:link { color: white; }
+a:visited { color: white; }
+a:hover { color: white; }
+a:active { color: white; }
+.grid { border: 2px solid black; background: hsla(0, 0%, 0%, 1); position: relative; }
+.grid-item { width: 325px; margin: 3px; float: left; border: 2px #333333 solid; padding: 3px; }
+.grid-item:hover { background-color: #222222; }
+.btn { margin-bottom: 3px; }
+.Now { border: 3px white solid; }
+.Upcoming { border: 3px #aaaaaa solid; }
+
+.btn-selected { background-color: hsl(0, 0%, 79%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#134134134", endColorstr="#c9c9c9"); background-image: -khtml-gradient(linear, left top, left bottom, from(#134134134), to(#c9c9c9)); background-image: -moz-linear-gradient(top, #134134134, #c9c9c9); background-image: -ms-linear-gradient(top, #134134134, #c9c9c9); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #134134134), color-stop(100%, #c9c9c9)); background-image: -webkit-linear-gradient(top, #134134134, #c9c9c9); background-image: -o-linear-gradient(top, #134134134, #c9c9c9); background-image: linear-gradient(#134134134, #c9c9c9); border-color: #c9c9c9 #c9c9c9 hsl(0, 0%, 68.5%); color: #333 !important; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.69); -webkit-font-smoothing: antialiased; }
+.btn { border: 0 none; border-top-style: solid; border-top-color: black; border-top-width: 2px; border-bottom-style: solid; border-bottom-color: black; border-bottom-width: 2px; }
+.btn.pressed { outline: 0 none; border-style: solid; border-color: white; border-width: 2px; color: white; }
+
+.btn:active, .btn.active { box-shadow: none; color: white; }
+.btn, .btn.focus, .btn:hover, .btn:focus, .btn:active { color: white; }
+
+.btn-primary { background: #3F51B5; }
+.btn-default { background: #757575; }
+
+.btn-category { background-color: black; }
+.btn-baseball { background: deeppink; }
+.btn-boxingmma { background-color: palevioletred; }
+.btn-formula1 { background-color: chocolate; }
+.btn-generaltv { background-color: silver; }
+.btn-golf { background: darkseagreen; }
+.btn-nhl { background-color: orangered; }
+.btn-motorsports { background-color: darkolivegreen; }
+.btn-nascar { background-color: indigo; }
+.btn-nba { background-color: darkorange; }
+.btn-ncaaf { background-color: darkblue; }
+.btn-news { background-color: saddlebrown; }
+.btn-nfl { background-color: blue; }
+.btn-othersports { background-color: rosybrown; }
+.btn-rugby { background-color: darkorchid; }
+.btn-tennis { background-color: burlywood; }
+.btn-worldfootball { background-color: forestgreen; }
+.btn-wrestling { background-color: firebrick; }
+
+div.cat-Category { background-color: black; }
+div.cat-Baseball { background-color: deeppink; }
+div.cat-BoxingMMA { background-color: palevioletred; }
+div.cat-Formula1 { background-color: chocolate; }
+div.cat-GeneralTV { background-color: silver; }
+div.cat-Golf { background-color: darkseagreen; }
+div.cat-NHL { background-color: orangered; }
+div.cat-MotorSports { background-color: darkolivegreen; }
+div.cat-Nascar { background-color: indigo; }
+div.cat-NBA { background-color: darkorange; }
+div.cat-NCAAF { background-color: darkblue; }
+div.cat-News { background-color: saddlebrown; }
+div.cat-NFL { background-color: blue; }
+div.cat-OtherSports { background-color: rosybrown; }
+div.cat-Rugby { background-color: darkorchid; }
+div.cat-Tennis { background-color: burlywood; }
+div.cat-WorldFootball { background-color: forestgreen; }
+div.cat-Wrestling { background-color: firebrick; }
+
+/*
+blue-grey #607D8B
+blue-grey dark #455A64
+amber dark #FFA000
+dark green #388E3C
+dark teal #00796B
+*/

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IPTV Guide</title>
+	<link rel="icon" sizes="64x64" href="favicon.ico" type="image/vnd.microsoft.icon"/>
+	<link rel="stylesheet" href="css/bootstrap.4.6.0.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/iptv.css">
+	<script src="js/jquery.3.6.0.min.js"></script>
+	<script src="js/moment.2.29.1.min.js"></script>
+	<script src="js/moment-timezone-with-data-2012-2022.0.5.33.min.js"></script>
+	<script src="js/isotope.pkgd.3.0.6.min.js"></script>
+	<script src="js/bootstrap.4.6.0.min.js"></script>
+	<script defer src="js/fontawesome-all.5.15.2.min.js"></script>
+	<script src="js/iptv.js"></script>
+</head>
+<body>
+	<h2>IPTV Guide (<span id="timezone"></span>)
+	<div class="btn-group btn-toggle" role="group"> 
+		<button class="btn btn-toggle btn-info">Sports</button>
+		<button class="btn btn-toggle btn-grey">All</button>
+	</div>
+	</h2>
+	<div class="btn-group filter-button-global" role="group"></div>
+	<div class="btn-group filter-button-category" role="group"></div>
+	<div class="grid" id="showTable"></div>
+	<div class="alert alert-success text-center" role="alert" id="loading"><br/>Loading...<br/><br/></div>
+</body>
+</html>
